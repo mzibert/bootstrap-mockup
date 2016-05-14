@@ -41,40 +41,41 @@
 <body class="sfooter">
 	<div class="sfooter-content">
 
+
 		<header>
-			<div class="contianer">
-				<!---begin bootstrap nav bar-->
-				<!---brand and toggle grouped for better mobile display-->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-							  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Brand</a>
-				</div>
+			<div class="container">
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Link</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								aria-expanded="false">Dropdown <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="http://google.com/">google.com</a></li>
-								<li><a href="https://www.ted.com/talks">Get Inspired</a></li>
-								<li><a href="https://www.youtube.com/vlogbrothers">Nerdfighteria</a></li>
+				<!-- begin bootstrap default navbar-->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Bootstrap Sample</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Items <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Best Beers</a></li>
+										<li><a href="#">Best Brewers</a></li>
+										<li><a href="#">LET'S DRINK!</a></li>
+									</ul>
+								</li>
 							</ul>
-						</li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
 			</div>
-
-		</header>
 		<main>
 
 
