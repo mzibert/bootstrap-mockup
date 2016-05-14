@@ -66,9 +66,9 @@
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Items <span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Best Beers</a></li>
-										<li><a href="#">Best Brewers</a></li>
-										<li><a href="#">LET'S DRINK!</a></li>
+										<li><a href="http://www.ratebeer.com/ratebeerbest/">Best Beers</a></li>
+										<li><a href="https://www.ratebeer.com/ratebeerbest/BestBrewers_012008.asp">Best Brewers</a></li>
+										<li><a href="http://dailycaller.com/2012/05/29/lets-drink-to-a-fallen-sailor/">LET'S DRINK!</a></li>
 									</ul>
 								</li>
 							</ul>
